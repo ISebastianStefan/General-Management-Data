@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE profit SYSTEM "dtd.dtd">
+<!--In acest fisier am reprezentat profitul unei companii "Sneakersnstreet" in primele 4 luni de la infintare,fiecare luna are un stoc cu urmatoarele elemente: 
+model,produse vandute,bani incasati si pachete returnate.--> 
+<profit>
+	<companie nume="Sneakersnstreet">
+		<an>Primele 4 luni de le infintare</an>
+		<luna nume="Mai">
+			<stoc nume="Adidasi">
+				<model>Adidas</model>
+				<produse_vandute>30</produse_vandute>
+				<bani_incasati>5000$</bani_incasati>
+				<returnate>5 pachete</returnate>
+			</stoc>
+		</luna>
+		<luna nume="Iunie">
+			<stoc nume="Adidasi">
+				<model>Jordan</model>
+				<produse_vandute>120</produse_vandute>
+				<bani_incasati>118000$</bani_incasati>
+				<returnate>1 pachete</returnate>
+			</stoc>
+		</luna>
+		<luna nume="Iulie">
+			<stoc nume="Papuci">
+				<model>Vans</model>
+				<produse_vandute>12</produse_vandute>
+				<bani_incasati>4677$</bani_incasati>
+				<returnate>6 pachete</returnate>
+			</stoc>
+		</luna>
+		<luna nume="August">
+			<stoc nume="Pantofi">
+				<model>Iceberg</model>
+				<produse_vandute>10</produse_vandute>
+				<bani_incasati>10000$</bani_incasati>
+				<returnate>0 pachete</returnate>
+			</stoc>
+		</luna>
+	</companie>
+</profit>
+	

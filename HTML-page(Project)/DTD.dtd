@@ -1,0 +1,12 @@
+<!ELEMENT profit (companie+)>
+<!ATTLIST companie nume CDATA #REQUIRED>
+<!ELEMENT companie (an*,luna+)>
+<!ELEMENT an (#PCDATA)>
+<!ATTLIST luna nume CDATA #REQUIRED>
+<!ELEMENT luna (stoc+)>
+<!ATTLIST stoc nume CDATA #REQUIRED>
+<!ELEMENT stoc (model,produse_vandute,bani_incasati,returnate)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT produse_vandute (#PCDATA)>
+<!ELEMENT bani_incasati (#PCDATA)>
+<!ELEMENT returnate (#PCDATA)>
